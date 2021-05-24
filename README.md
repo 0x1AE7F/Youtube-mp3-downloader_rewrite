@@ -13,11 +13,11 @@ Instruction:
 
     Queue Mode:
 
-Paste your links into the Queue.txt file like in the example
+        Paste your links into the Queue.txt file like in the example
 
     Single Mode:
 
-Paste your link in the Input field
+        Paste your link in the Input field
     
 4:  Have Fun!
 
