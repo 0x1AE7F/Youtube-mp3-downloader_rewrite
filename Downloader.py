@@ -1,6 +1,5 @@
 import pytube
 import os
-import time
 
 choice = input('Single (1) or Queue (2) Mode\n : ')
 
@@ -14,7 +13,7 @@ if choice == "1":
 else:
     if choice == "2":
 
-        my_file = open("sample.txt", "r")
+        my_file = open("./Queue.txt", "r")
         content_list = my_file. readlines()
 
         list_good = [x.replace('\n', '') for x in content_list]
@@ -27,7 +26,3 @@ else:
             location = video.download()            
             os.rename(location, location.replace('.mp4', '.mp3'))
             list_good.pop(0)
-            time.sleep(5)
-
-
-
