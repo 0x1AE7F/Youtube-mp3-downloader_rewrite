@@ -1,4 +1,4 @@
-# Youtube-mp3-downloader_rewrite
+# Youtube-mp3-downloader
 This Python script downloads a youtube video as .mp3.
 
 Instruction:
